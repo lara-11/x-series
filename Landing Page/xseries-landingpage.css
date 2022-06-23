@@ -318,7 +318,7 @@ iframe.xseries-software-video {
 
   div.xseries-software-line {
     width: auto;
-    margin: 5px 180px 15px 30px;
+    margin: 15px 180px 15px 30px;
   }
 
   div.software-box2 {
@@ -660,6 +660,7 @@ div.packages-box2 {
   }
 
   p.xseries-package-p {
+    text-align: center;
     margin-right: 80px;
   }
 
@@ -689,10 +690,11 @@ div.packages-box2 {
 
   div.xseries-packages-line {
     width: auto;
-    margin: 10px 500px 15px 0px;
+    margin: 10px 250px 15px 250px;
   }
 
   p.xseries-package-p {
+    text-align: center;
     font-size: 17.5px;
     margin: 0px 0px 0px 0px;
   }
@@ -715,12 +717,13 @@ div.packages-box2 {
   }
 
   h1.xseries-package-h1 {
-    font-size: 37px;
+    font-size: 35px;
     margin: 0px 0px 0px 0px;
   }
 
   div.xseries-packages-line {
-    margin-right: 180px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   p.xseries-package-p {
@@ -731,6 +734,13 @@ div.packages-box2 {
   div.packages-box2 {
     padding: 10px 0px 40px 0px;
     margin: 0px 30px 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  div.xseries-packages-line {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 
