@@ -135,7 +135,7 @@ div.software-box1 {
 
 div.xseries-software-build-ROS {
   display: flex;
-  margin: 0px 35px 0px 120px;
+  margin: 0px 20px 0px 120px;
 }
 
 h1.xseries-software-h1 {
@@ -200,6 +200,10 @@ iframe.xseries-software-video {
   img.ROS-edits2 {
     width: auto;
   }
+
+  figure.xseries-ROS_img1 {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 /* Fixes the ROS responsive issue */
@@ -262,6 +266,10 @@ iframe.xseries-software-video {
   h1.xseries-software-h1 {
     width: auto;
   }
+
+  figure.xseries-ROS_img1 {
+    margin-right: 20px;
+  }
 }
 
 /* Fixes the ROS responsive issue */
@@ -308,7 +316,7 @@ iframe.xseries-software-video {
   }
 
   figure.xseries-ROS_img1 {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
   }
 
   p.xseries-software-p {
@@ -328,6 +336,23 @@ iframe.xseries-software-video {
   iframe.xseries-software-video {
     width: 420px;
     height: 220px;
+  }
+
+  img.ROS-edits2 {
+    max-width: 43px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+  h1.xseries-software-h1 {
+    margin-top: 20px;
+    width: 200px;
+    font-size: 43px;
+  }
+
+  figure.xseries-ROS_img1 {
+    margin: 0px 0px 0px 0px;
   }
 }
 
