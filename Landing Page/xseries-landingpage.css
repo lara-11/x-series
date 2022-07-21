@@ -723,7 +723,7 @@ div.packages-box2 {
 
   div.xseries-packages-line {
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 200px;  
   }
 
   p.xseries-package-p {
@@ -1633,6 +1633,29 @@ input#ctl46_ctlContactForm_rpFormField_ctl06_rblFields_1 {
 
 figure.xseries-secondimg-background {
   background: #ededed;
+}
+
+/* DESKTOP */
+@media only screen and (max-width: 2565px) {
+  div.contact-left-wrap2 {
+    width: auto;
+  }
+
+  img.xseries-contact-banner {
+    width: 1430px;
+  }
+
+  div.contact-info {
+    max-width: 1135px;
+  }
+
+  figure.xseries-secondimg-background {
+    width: 530px;
+  }
+
+  img.contact-img2{
+    width: 100%;
+  }
 }
 
 /* TABLET */
