@@ -1798,7 +1798,7 @@
 
     /* Makes message box longer */
     input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
-        padding-bottom: 120px;
+        padding-bottom: 120px; 
     }
 
     /* Style the submit button with a specific background color etc */
