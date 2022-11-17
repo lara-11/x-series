@@ -34,7 +34,7 @@
     div.education-box2 {
         margin-top: auto;
         margin-bottom: auto;
-        padding: 80px 120px 60px 50px;
+        padding: 50px 120px 60px 50px;
     }
 
     h1.xseries-education-h1 {
@@ -336,7 +336,7 @@
     /* MOBILE */
     @media only screen and (max-width: 736px) {
         div.xseries-software-build-ROS {
-            flex-flow: nowrap;
+            flex-flow: column;
             margin: 0px 30px 0px 30px;
         }
 
@@ -348,17 +348,18 @@
         img.ROS-edits1 {
             width: 160px;
             max-height: 50px;
+            margin: 10px 15px 0px 0px;
         }
 
         /* Remove the margin-right when we add the ROS 2 icon */
         h1.xseries-software-h1 {
             width: auto;
             margin: 0px 15px 0px 0px;
-            font-size: 46px;
+            font-size: 55px;
         }
 
         figure.xseries-ROS_img1 {
-            margin: 0px 0px 20px 0px;
+            margin: 0px 0px 0px 0px;
         }
 
         p.xseries-software-p {
@@ -381,7 +382,8 @@
         }
 
         img.ROS-edits2 {
-            max-width: 43px;
+            max-height: 44px;
+            margin-top: 10px;
         }
     }
 
