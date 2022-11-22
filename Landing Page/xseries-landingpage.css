@@ -39,7 +39,6 @@
 
     h1.xseries-education-h1 {
         max-width: 670px;
-        text-align: center;
         font-size: 62px;
         color: #1a272d;
         margin-top: 0px;
@@ -69,6 +68,7 @@
 
         h1.xseries-education-h1 {
             max-width: 100%;
+            font-size: 55px;
         }
 
         p.xseries-education-p {
@@ -96,7 +96,7 @@
 
         h1.xseries-education-h1 {
             max-width: 100%;
-            font-size: 59px;
+            font-size: 50px;
         }
 
         div.xseries-education-line {
@@ -673,7 +673,7 @@
     }
 
     h1.xseries-package-h1 {
-        font-size: 58px;
+        font-size: 60px;
         color: #1a272d;
         margin: 0px 80px 0px 80px;
     }
@@ -774,6 +774,10 @@
         div.xseries-packages-links {
             margin-right: 80px;
         }
+
+        h1.xseries-package-h1 {
+            font-size: 55px;
+        }
     }
 
     /* TABLET */
@@ -785,7 +789,7 @@
 
         h1.xseries-package-h1 {
             text-align: center;
-            font-size: 49px;
+            font-size: 50px;
             margin: 0px 0px 0px 0px;
         }
 
@@ -865,7 +869,7 @@
     }
 
     div.performance-box1 {
-        padding: 60px 50px 60px 120px;
+        padding: 60px 50px 50px 120px;
     }
 
     img.xseries-performance-img1 {
@@ -880,7 +884,7 @@
 
     h1.xseries-performance-h1 {
         max-width: 670px;
-        font-size: 62px;
+        font-size: 60px;
         color: #1a272d;
         margin-top: 0px;
     }
@@ -888,7 +892,7 @@
     div.xseries-performance-line {
         height: 2px;
         background: #1a272d;
-        margin: 10px 400px 15px 0px;
+        margin: 10px 290px 15px 0px;
     }
 
     p.xseries-performance-p {
@@ -909,6 +913,7 @@
 
         h1.xseries-performance-h1 {
             max-width: 100%;
+            font-size: 46px;
         }
 
         div.xseries-performance-line {
@@ -920,7 +925,7 @@
         }
 
         div.performance-box1 {
-            padding: 20px 50px 40px 50px;
+            padding: 0px 50px 10px 50px;
         }
     }
 
@@ -941,7 +946,7 @@
 
         h1.xseries-performance-h1 {
             max-width: 100%;
-            font-size: 56px;
+            font-size: 41px;
         }
 
         div.xseries-performance-line {
@@ -999,7 +1004,7 @@
 
     h1.xseries-kit-h1 {
         max-width: 670px;
-        font-size: 62px;
+        font-size: 60px;
         color: #1a272d;
         margin-top: 0px;
     }
@@ -1007,7 +1012,7 @@
     div.xseries-kit-line {
         height: 2px;
         background: #1a272d;
-        margin: 10px 430px 15px 0px;
+        margin: 10px 290px 15px 0px;
     }
 
     p.xseries-kit-p {
@@ -1038,6 +1043,7 @@
 
         h1.xseries-kit-h1 {
             max-width: 100%;
+            font-size: 55px;
         }
 
         div.xseries-kit-line {
@@ -1065,6 +1071,7 @@
 
         h1.xseries-kit-h1 {
             max-width: 100%;
+            font-size: 50px;
         }
 
         div.xseries-kit-line {
@@ -1135,7 +1142,7 @@
     h1.xseries-customize-h1 {
         max-width: 730px;
         text-align: center;
-        font-size: 62px;
+        font-size: 60px;
         color: #1a272d;
         margin: 0px 120px 0px 120px;
     }
@@ -1168,6 +1175,10 @@
             padding-top: 40px;
             padding-bottom: 40px;
         }
+
+        h1.xseries-customize-h1 {
+            font-size: 55px;
+        }
     }
 
     /* TABLET */
@@ -1177,7 +1188,8 @@
         }
 
         h1.xseries-customize-h1 {
-            margin: 0px 100px 0px 100px;
+            max-width: 100%;
+            font-size: 50px;
         }
 
         div.xseries-customize-line {
@@ -1239,7 +1251,7 @@
     h1.xseries-tutorial-h1 {
         max-width: 670px;
         color: #1a272d;
-        font-size: 62px;
+        font-size: 60px;
         margin-top: 0px;
     }
 
@@ -1320,6 +1332,7 @@
 
         h1.xseries-tutorial-h1 {
             max-width: 100%;
+            font-size: 55px;
         }
 
         div.xseries-tutorial-line {
@@ -1372,6 +1385,7 @@
 
         h1.xseries-tutorial-h1 {
             max-width: 100%;
+            font-size: 50px;
         }
 
         div.xseries-tutorial-line {
@@ -1465,7 +1479,7 @@
     }
 
     h1.xseries-models-h1 {
-        font-size: 62px;
+        font-size: 60px;
         color: #1a272d;
         margin: 0px 0px 0px 0px;
         padding-left: 200px;
@@ -1605,6 +1619,13 @@
 
     figure.xseries-contact-background2 {
         background: #ededed;
+    }
+
+    /* RESPONSIVE */
+    @media only screen and (max-width: 1250px) {
+        h1.xseries-models-h1 {
+            font-size: 55px;
+        }
     }
 
     /* TABLET */
@@ -1800,7 +1821,7 @@
 
     /* Makes message box longer */
     input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
-        padding-bottom: 120px; 
+        padding-bottom: 120px;
     }
 
     /* Style the submit button with a specific background color etc */
