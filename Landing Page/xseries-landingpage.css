@@ -1266,6 +1266,10 @@
         text-align: justify;
     }
 
+    figure.tutorial-container-all {
+        background-color: #e2f2fb;
+    }
+
     iframe.xseries-tutorial-video1 {
         width: 700px;
         height: 380px;
@@ -1619,6 +1623,10 @@
 
     figure.xseries-contact-background2 {
         background: #ededed;
+    }
+
+    img.xseries-models-img-all {
+        background-color: white;
     }
 
     /* RESPONSIVE */
