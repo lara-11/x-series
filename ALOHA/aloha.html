@@ -1,3 +1,186 @@
 <!--ALOHA-->
-<div>
+<div class="page-container">
+    <!--SECTION 1-->
+    <div class="container1">
+        <h1 class="sec1-h1">Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h1>
+        <div class="sec1-line"></div>
+        <h3 class="sec1-h1">
+            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Tony Zhao</a>,
+            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Vikash Kumar</a>,
+            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Sergey Levine</a>,
+            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Chelsea Finn</a>
+        </h3>
+        <h3 class="sec1-h3-2">Read the paper
+            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">here</a>
+        </h3>
+    </div>
+
+    <!--SECTION 2-->
+    <div class="container2">
+        <div class="sec2-box1">
+            <h1 class="sec2-h1">Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h1>
+
+            <div class="img-container2">
+                <figure class="stanford-con-img">
+                    <img src="/Shared/XSeries/ALOHA/stanford-university-logo_1_4fe9ece2-a10a-41be-8d93-f8c17b394f65_1080x.webp" class="stanford-img" data-image="0">
+                </figure>
+
+                <figure class="berkeley-con-img">
+                    <img src="/Shared/XSeries/ALOHA/uc-berkeley-symbol_1_900x.webp" class="berkeley-img" data-image="0">
+                </figure>
+
+                <figure class="meta-con-img">
+                    <img src="/Shared/XSeries/ALOHA/meta-logo_1_1080x.webp" class="meta-img" data-image="0">
+                </figure>
+            </div>
+        </div>
+
+        <div class="sec2-box2">
+            <video autoplay muted loop id="interbotix-vid" class="sec2-box2-vid">
+                <source src="/Shared/XSeries/ALOHA/xseries_landing_header.mp4" type="video/mp4">
+            </video>
+
+            <div class="sec2-box2-content">
+                <h1>Featuring</h1>
+                <!--Look at home page buttons to copy-->
+                <button id="learn-more-btn" type="button" onclick="myFunction()">LEARN MORE</button>
+              </div>
+        </div>
+    </div>
+
+    <!--SECTION 3-->
+    <div class="container3">
+        <div class="sec3-box1">
+            <h1 class="sec3-h1">Teleoperation System</h1>
+            <div class="sec3-line"></div>
+            <p>We introduce ALOHA 🏖️: A Low-cost Open-source Hardware System for Bimanual Teleoperation. With a $20k budget, it is capable of teleoperating precise tasks such as threading a zip tie, dynamic tasks such as juggling a ping pong ball, and contact-rich tasks such as assembling the chain in the NIST board #2.
+            </p>
+        </div>
+
+        <div class="sec3-box2">
+            <video autoplay muted loop id="balance-vid" class="sec3-box2-vid">
+                <source src="/Shared/XSeries/ALOHA/teleop.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!--SECTION 4-->
+    <div class="container4">
+        <figure class="teleoperated-con-img">
+            <img src="/Shared/XSeries/ALOHA/example-teleoperated-skills2_1728x.webp" class="teleoperated-img" data-image="0">
+        </figure>
+    </div>
+
+    <!--SECTION 5-->
+    <div class="container5">
+        <div class="sec5-box1">
+            <h1 class="sec5-h1">Learned Policy</h1>
+            <div class="sec5-line"></div>
+            <p>We introduce Action Chunking with Transformers (ACT). The videos below show real-time rollouts of learned policies, imitating from only 50 demonstrations for each task. ACT predicts a sequence of target joint positions given RGB images and proprioception. For the three following tasks, ACT obtains 96%, 84%, 64% success respectively.
+            </p>
+        </div>
+
+        <div class="sec5-box2">
+            <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
+                <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="lid-vid" class="sec5-box2-vid2">
+                <source src="/Shared/XSeries/ALOHA/open_lid.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="tape-vid" class="sec5-box2-vid3">
+                <source src="/Shared/XSeries/ALOHA/prep_tape.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!--SECTION 6-->
+    <div class="container6">
+        <figure class="viperx-con-img">
+            <img src="/Shared/XSeries/ALOHA/basicsetupinformation_1728x.webp" class="viperx-img" data-image="0">
+        </figure>
+    </div>
+
+    <!--SECTION 7-->
+    <div class="container5">
+        <div class="sec5-box1">
+            <h1 class="sec5-h1">Observations during policy execution</h1>
+            <div class="sec5-line"></div>
+            <p>We show example image observations (i.e. the input to the ACT policy) at evaluation time. There is a total of 4 RGB cameras each streaming at 480x640. Two of the cameras are stationery and the other two are mounted on the wrist of robots.
+            </p>
+        </div>
+
+        <div class="sec5-box2">
+            <div class="">
+                <h1 class="sec5-h1">Slide Ziploc</h1>
+                <div class="sec5-line"></div>
+                <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
+                    <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="">
+                <h1 class="sec5-h1">Slot Battery</h1>
+                <div class="sec5-line"></div>
+                <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
+                    <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="">
+                <h1 class="sec5-h1">Open Cup</h1>
+                <div class="sec5-line"></div>
+                <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
+                    <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION 7-->
 </div>
+
+
+<style>
+/* ALOHA */
+/* SECTION 1 */
+
+/* SECTION 2 */
+#interbotix-vid, #balance-vid, #battery-vid, #lid-vid, #tape-vid {
+    width: 100%;
+  }
+
+  .sec2-box2 {
+    position: relative;
+  }
+
+  .sec2-box2-vid {
+    position: relative;
+  }
+
+  .sec2-box2-content {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #learn-more-btn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #learn-more-btn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /* SECTION 2 */
+</style>
