@@ -10,8 +10,19 @@ div.page-container {
 #tape-vid,
 #ziploc-vid,
 #obs-vid,
-#cup-vid {
+#cup-vid,
+.university-img {
   width: 100%;
+}
+
+a {
+  color: #007cc4;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.5s;
+  color: black;
 }
 
 /* SECTION 1 */
@@ -48,39 +59,67 @@ div.sec1-name-con {
 
 /* SECTION 2 */
 div.container2 {
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 30px;
+}
+
+div.sec2-box1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1.sec2-h1 {
+  max-width: 1400px;
+  margin: 30px auto 30px auto;
+  font-weight: 400;
 }
 
 div.img-container2 {
   display: flex;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.sec2-box2 {
+figure.stanford-con-img,
+figure.berkeley-con-img,
+figure.meta-con-img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img.stanford-img,
+img.berkeley-img,
+img.meta-img {
+  width: 800px;
+}
+
+div.sec2-box2 {
   position: relative;
 }
 
-.sec2-box2-vid {
+video.sec2-box2-vid {
   position: relative;
 }
 
-.sec2-box2-content {
+div.sec2-box2-content {
   position: absolute;
   bottom: 0;
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 60px 70px;
 }
 
 h1.sec2-box2-h1 {
   color: white;
   font-weight: 400;
+  font-size: 28px;
 }
 
 #learn-more-btn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
+  width: 165px;
+  font-size: 16px;
+  padding: 15px 10px;
   border: none;
   background: #007cc4;
   color: #fff;
@@ -88,12 +127,14 @@ h1.sec2-box2-h1 {
 }
 
 #learn-more-btn:hover {
-  background: white;
-  color: #007cc4;
-}
-
-.learn-more-btn-text {
-
+  /* background: white;
+  color: #007cc4; */
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
 }
 
 /* SECTION 3 */
@@ -112,6 +153,7 @@ div.sec3-box1 {
 
 h1.sec3-h1 {
   text-align: center;
+  font-weight: 400;
 }
 
 div.sec3-line {
@@ -122,7 +164,7 @@ div.sec3-line {
 }
 
 p.sec3-p {
-  text-align: center;
+  text-align: justify;
 }
 
 div.sec3-box2 {
@@ -190,6 +232,8 @@ video.sec5-box2-vid1,
 video.sec5-box2-vid2,
 video.sec5-box2-vid3 {
   max-width: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* SECTION 6 */
@@ -213,23 +257,34 @@ div.sec7-box1 {
   padding-bottom: 30px;
 }
 
-div.sec7-box2 {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 div.sec7-box2-con1 {
   display: flex;
 }
 
-div.sec7-box2-con1, div.sec7-box2-con2, div.sec7-box2-con3 {
-  width: 1400px;
+div.sec7-box2-con1,
+div.sec7-box2-con2,
+div.sec7-box2-con3 {
   display: flex;
   justify-content: space-between;
+  padding: 20px 200px 20px 200px;
 }
 
-video.sec7-box2-vid1, video.sec7-box2-vid2, video.sec7-box2-vid3 {
+h1.sec7-box2-h1 {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.sec7-box2-line {
+  width: 120px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+video.sec7-box2-vid1,
+video.sec7-box2-vid2,
+video.sec7-box2-vid3 {
   max-width: 1000px;
 }
 
@@ -263,4 +318,57 @@ p.sec7-box1-p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* SECTION 8 */
+div.container8 {
+  margin-top: 30px;
+}
+
+div.sec8-box1 {
+  position: relative;
+}
+
+figure.university-con-img {
+  min-height: 45vh;
+  position: relative;
+  background-image: url("/Shared/XSeries/ALOHA/labfeature.webp");
+  background-size: cover;
+}
+
+div.sec8-box1-content {
+  position: absolute;
+  bottom: 20%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1.sec8-box1-h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 45px;
+}
+
+#quote-btn {
+  width: 165px;
+  font-size: 14px;
+  padding: 15px 10px;
+  border: none;
+  background: #007cc4;
+  color: #fff;
+  cursor: pointer;
+}
+
+#quote-btn:hover {
+  /* background: white;
+  color: #007cc4; */
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
 }
