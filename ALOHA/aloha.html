@@ -4,21 +4,24 @@
     <div class="container1">
         <h1 class="sec1-h1">Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h1>
         <div class="sec1-line"></div>
-        <h3 class="sec1-h1">
-            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Tony Zhao</a>,
-            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Vikash Kumar</a>,
-            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Sergey Levine</a>,
-            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Chelsea Finn</a>
-        </h3>
-        <h3 class="sec1-h3-2">Read the paper
-            <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">here</a>
-        </h3>
+
+        <div class="sec1-name-con">
+            <h3 class="sec1-h3">
+                <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Tony Zhao</a>,
+                <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Vikash Kumar</a>,
+                <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Sergey Levine</a>,
+                <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;">Chelsea Finn</a>
+            </h3>
+            <h3 class="sec1-h3-2"> Read the paper
+                <a href="#" target="_blank" rel="noopener noreferrer" style="color: #007cc4;"> here</a>.
+            </h3>
+        </div>
     </div>
 
     <!--SECTION 2-->
     <div class="container2">
         <div class="sec2-box1">
-            <h1 class="sec2-h1">Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h1>
+            <h1 class="sec2-h1">in partnership with...</h1>
 
             <div class="img-container2">
                 <figure class="stanford-con-img">
@@ -41,9 +44,9 @@
             </video>
 
             <div class="sec2-box2-content">
-                <h1>Featuring</h1>
+                <h1 class="sec2-box2-h1">Featuring</h1>
                 <!--Look at home page buttons to copy-->
-                <button id="learn-more-btn" type="button" onclick="myFunction()">LEARN MORE</button>
+                <button id="learn-more-btn" class="learn-more-btn-text" type="button" onclick="myFunction()">LEARN MORE</button>
               </div>
         </div>
     </div>
@@ -53,7 +56,7 @@
         <div class="sec3-box1">
             <h1 class="sec3-h1">Teleoperation System</h1>
             <div class="sec3-line"></div>
-            <p>We introduce ALOHA 🏖️: A Low-cost Open-source Hardware System for Bimanual Teleoperation. With a $20k budget, it is capable of teleoperating precise tasks such as threading a zip tie, dynamic tasks such as juggling a ping pong ball, and contact-rich tasks such as assembling the chain in the NIST board #2.
+            <p class="sec3-p">We introduce ALOHA 🏖️: A Low-cost Open-source Hardware System for Bimanual Teleoperation. With a $20k budget, it is capable of teleoperating precise tasks such as threading a zip tie, dynamic tasks such as juggling a ping pong ball, and contact-rich tasks such as assembling the chain in the NIST board #2.
             </p>
         </div>
 
@@ -76,7 +79,7 @@
         <div class="sec5-box1">
             <h1 class="sec5-h1">Learned Policy</h1>
             <div class="sec5-line"></div>
-            <p>We introduce Action Chunking with Transformers (ACT). The videos below show real-time rollouts of learned policies, imitating from only 50 demonstrations for each task. ACT predicts a sequence of target joint positions given RGB images and proprioception. For the three following tasks, ACT obtains 96%, 84%, 64% success respectively.
+            <p class="sec5-p">We introduce Action Chunking with Transformers (ACT). The videos below show real-time rollouts of learned policies, imitating from only 50 demonstrations for each task. ACT predicts a sequence of target joint positions given RGB images and proprioception. For the three following tasks, ACT obtains 96%, 84%, 64% success respectively.
             </p>
         </div>
 
@@ -103,84 +106,324 @@
     </div>
 
     <!--SECTION 7-->
-    <div class="container5">
-        <div class="sec5-box1">
-            <h1 class="sec5-h1">Observations during policy execution</h1>
-            <div class="sec5-line"></div>
-            <p>We show example image observations (i.e. the input to the ACT policy) at evaluation time. There is a total of 4 RGB cameras each streaming at 480x640. Two of the cameras are stationery and the other two are mounted on the wrist of robots.
+    <div class="container7">
+        <div class="sec7-box1">
+            <h1 class="sec7-box1-h1">Observations during policy execution</h1>
+            <div class="sec7-box1-line"></div>
+            <p class="sec7-box1-p">We show example image observations (i.e. the input to the ACT policy) at evaluation time. There is a total of 4 RGB cameras each streaming at 480x640. Two of the cameras are stationery and the other two are mounted on the wrist of robots.
             </p>
         </div>
 
-        <div class="sec5-box2">
-            <div class="">
-                <h1 class="sec5-h1">Slide Ziploc</h1>
-                <div class="sec5-line"></div>
-                <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
-                    <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+        <div class="sec7-box2">
+            <div class="sec7-box2-con1">
+                <h1 class="sec7-box2-h1">Slide Ziploc</h1>
+                <div class="sec7-box2-line"></div>
+                <video autoplay muted loop id="ziploc-vid" class="sec7-box2-vid1">
+                    <source src="/Shared/XSeries/ALOHA/ziploc_slide.mp4" type="video/mp4">
                 </video>
             </div>
 
-            <div class="">
-                <h1 class="sec5-h1">Slot Battery</h1>
-                <div class="sec5-line"></div>
-                <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
-                    <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+            <div class="sec7-box2-con2">
+                <h1 class="sec7-box2-h1">Slot Battery</h1>
+                <div class="sec7-box2-line"></div>
+                <video autoplay muted loop id="obs-vid" class="sec7-box2-vid2">
+                    <source src="/Shared/XSeries/ALOHA/obs_battery.mp4" type="video/mp4">
                 </video>
             </div>
 
-            <div class="">
-                <h1 class="sec5-h1">Open Cup</h1>
-                <div class="sec5-line"></div>
-                <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
-                    <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+            <div class="sec7-box2-con3">
+                <h1 class="sec7-box2-h1">Open Cup</h1>
+                <div class="sec7-box2-line"></div>
+                <video autoplay muted loop id="cup-vid" class="sec7-box2-vid3">
+                    <source src="/Shared/XSeries/ALOHA/open_cup.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
     </div>
 
-    <!--SECTION 7-->
+    <!--SECTION 8-->
+    <div>
+        <div class="sec2-box2">
+            <figure class="viperx-con-img">
+                <img src="/Shared/XSeries/ALOHA/labfeature.webp" class="viperx-img" data-image="0">
+            </figure>
+
+            <div class="sec2-box2-content">
+                <h1>Interested in bringing this project to your University?</h1>
+                <!--Look at home page buttons to copy-->
+                <button id="learn-more-btn" type="button" onclick="myFunction()">REQUEST A QUOTE</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 
 <style>
 /* ALOHA */
+div.page-container {
+  margin-top: 50px;
+}
+
+#interbotix-vid,
+#balance-vid,
+#battery-vid,
+#lid-vid,
+#tape-vid,
+#ziploc-vid,
+#obs-vid,
+#cup-vid {
+  width: 100%;
+}
+
 /* SECTION 1 */
+div.container1 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1.sec1-h1 {
+  max-width: 750px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec1-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+div.sec1-name-con {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* SECTION 2 */
-#interbotix-vid, #balance-vid, #battery-vid, #lid-vid, #tape-vid {
-    width: 100%;
-  }
+div.container2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-  .sec2-box2 {
-    position: relative;
-  }
+div.img-container2 {
+  display: flex;
+}
 
-  .sec2-box2-vid {
-    position: relative;
-  }
+.sec2-box2 {
+  position: relative;
+}
 
-  .sec2-box2-content {
-    position: absolute;
-    bottom: 0;
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
+.sec2-box2-vid {
+  position: relative;
+}
 
-  #learn-more-btn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
+.sec2-box2-content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
 
-  #learn-more-btn:hover {
-    background: #ddd;
-    color: black;
-  }
+h1.sec2-box2-h1 {
+  color: white;
+  font-weight: 400;
+}
 
-  /* SECTION 2 */
+#learn-more-btn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #007cc4;
+  color: #fff;
+  cursor: pointer;
+}
+
+#learn-more-btn:hover {
+  background: white;
+  color: #007cc4;
+}
+
+.learn-more-btn-text {
+
+}
+
+/* SECTION 3 */
+div.container3 {
+  display: flex;
+  max-width: 1400px;
+  margin: 30px auto 30px auto;
+}
+
+div.sec3-box1 {
+  max-width: 650px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px 25px 0px 25px;
+}
+
+h1.sec3-h1 {
+  text-align: center;
+}
+
+div.sec3-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec3-p {
+  text-align: center;
+}
+
+div.sec3-box2 {
+  padding: 0px 25px 0px 25px;
+}
+
+/* SECTION 4 */
+div.container4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figure.teleoperated-con-img {
+  max-width: 1400px;
+}
+
+img.teleoperated-img {
+  width: 100%;
+}
+
+/* SECTION 5 */
+div.container5 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.sec5-box1 {
+  padding-bottom: 30px;
+}
+
+h1.sec5-h1 {
+  max-width: 750px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec5-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec5-p {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec5-box2 {
+  display: flex;
+  justify-content: center;
+}
+
+video.sec5-box2-vid1,
+video.sec5-box2-vid2,
+video.sec5-box2-vid3 {
+  max-width: 450px;
+}
+
+/* SECTION 6 */
+div.container6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figure.viperx-con-img {
+  max-width: 1400px;
+}
+
+img.viperx-img {
+  width: 100%;
+}
+
+/* SECTION 7 */
+div.sec7-box1 {
+  padding-bottom: 30px;
+}
+
+div.sec7-box2 {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec7-box2-con1 {
+  display: flex;
+}
+
+div.sec7-box2-con1, div.sec7-box2-con2, div.sec7-box2-con3 {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+video.sec7-box2-vid1, video.sec7-box2-vid2, video.sec7-box2-vid3 {
+  max-width: 1000px;
+}
+
+/* SECTION 7 */
+div.container7 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1.sec7-box1-h1 {
+  max-width: 750px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec7-box1-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec7-box1-p {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 </style>
