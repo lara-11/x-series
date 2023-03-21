@@ -1,0 +1,540 @@
+<!--ALOHA-->
+<div class="page-container">
+    <!--SECTION 1-->
+    <div class="container1">
+        <h1 class="sec1-h1">Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware</h1>
+        <div class="sec1-line"></div>
+
+        <div class="sec1-name-con">
+            <h3 class="sec1-h3">
+                <a href="#" target="_blank" rel="noopener noreferrer">Tony Zhao</a>,
+                <a href="#" target="_blank" rel="noopener noreferrer">Vikash Kumar</a>,
+                <a href="#" target="_blank" rel="noopener noreferrer">Sergey Levine</a>,
+                <a href="#" target="_blank" rel="noopener noreferrer">Chelsea Finn</a>
+            </h3>
+            <h3 class="sec1-h3-2"> Read the paper
+                <a href="#" target="_blank" rel="noopener noreferrer" style="font-weight: 600;"> here</a>.
+            </h3>
+        </div>
+    </div>
+
+    <!--SECTION 2-->
+    <div class="container2">
+        <div class="sec2-box1">
+            <h1 class="sec2-h1">in partnership with...</h1>
+
+            <div class="img-container2">
+                <figure class="stanford-con-img">
+                    <img src="/Shared/XSeries/ALOHA/stanford-university-logo_1_4fe9ece2-a10a-41be-8d93-f8c17b394f65_1080x.webp" class="stanford-img" data-image="0">
+                </figure>
+
+                <figure class="berkeley-con-img">
+                    <img src="/Shared/XSeries/ALOHA/uc-berkeley-symbol_1_900x.webp" class="berkeley-img" data-image="0">
+                </figure>
+
+                <figure class="meta-con-img">
+                    <img src="/Shared/XSeries/ALOHA/meta-logo_1_1080x.webp" class="meta-img" data-image="0">
+                </figure>
+            </div>
+        </div>
+
+        <div class="sec2-box2">
+            <video autoplay muted loop id="interbotix-vid" class="sec2-box2-vid">
+                <source src="/Shared/XSeries/ALOHA/xseries_landing_header.mp4" type="video/mp4">
+            </video>
+
+            <div class="sec2-box2-content">
+                <h1 class="sec2-box2-h1">Featuring</h1>
+                <button id="learn-more-btn" class="learn-more-btn-text" type="button" onclick="myFunction()">LEARN MORE</button>
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION 3-->
+    <div class="container3">
+        <div class="sec3-box1">
+            <h1 class="sec3-h1">Teleoperation System</h1>
+            <div class="sec3-line"></div>
+            <p class="sec3-p">We introduce ALOHA: A Low-cost Open-source Hardware System for Bimanual Teleoperation. With a $20k budget, it is capable of teleoperating precise tasks such as threading a zip tie, dynamic tasks such as juggling a ping pong ball, and contact-rich tasks such as assembling the chain in the NIST board #2.
+            </p>
+        </div>
+
+        <div class="sec3-box2">
+            <video autoplay muted loop id="balance-vid" class="sec3-box2-vid">
+                <source src="/Shared/XSeries/ALOHA/teleop.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!--SECTION 4-->
+    <div class="container4">
+        <figure class="teleoperated-con-img">
+            <img src="/Shared/XSeries/ALOHA/example-teleoperated-skills2_1728x.webp" class="teleoperated-img" data-image="0">
+        </figure>
+    </div>
+
+    <!--SECTION 5-->
+    <div class="container5">
+        <div class="sec5-box1">
+            <h1 class="sec5-h1">Learned Policy</h1>
+            <div class="sec5-line"></div>
+            <p class="sec5-p">We introduce Action Chunking with Transformers (ACT). The videos below show real-time rollouts of learned policies, imitating from only 50 demonstrations for each task. ACT predicts a sequence of target joint positions given RGB images and proprioception. For the three following tasks, ACT obtains 96%, 84%, 64% success respectively.
+            </p>
+        </div>
+
+        <div class="sec5-box2">
+            <video autoplay muted loop id="battery-vid" class="sec5-box2-vid1">
+                <source src="/Shared/XSeries/ALOHA/slot_battery.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="lid-vid" class="sec5-box2-vid2">
+                <source src="/Shared/XSeries/ALOHA/open_lid.mp4" type="video/mp4">
+            </video>
+
+            <video autoplay muted loop id="tape-vid" class="sec5-box2-vid3">
+                <source src="/Shared/XSeries/ALOHA/prep_tape.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!--SECTION 6-->
+    <div class="container6">
+        <figure class="viperx-con-img">
+            <img src="/Shared/XSeries/ALOHA/basicsetupinformation_1728x.webp" class="viperx-img" data-image="0">
+        </figure>
+    </div>
+
+    <!--SECTION 7-->
+    <div class="container7">
+        <div class="sec7-box1">
+            <h1 class="sec7-box1-h1">Observations during policy execution</h1>
+            <div class="sec7-box1-line"></div>
+            <p class="sec7-box1-p">We show example image observations (i.e. the input to the ACT policy) at evaluation time. There is a total of 4 RGB cameras each streaming at 480x640. Two of the cameras are stationery and the other two are mounted on the wrist of robots.
+            </p>
+        </div>
+
+        <div class="sec7-box2">
+            <div class="sec7-box2-con1">
+                <h1 class="sec7-box2-h1">Slide Ziploc
+                  <div class="sec7-box2-line"></div>
+                </h1>
+
+                <video autoplay muted loop id="ziploc-vid" class="sec7-box2-vid1">
+                    <source src="/Shared/XSeries/ALOHA/ziploc_slide.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="sec7-box2-con2">
+                <h1 class="sec7-box2-h1">Slot Battery
+                  <div class="sec7-box2-line"></div>
+                </h1>
+
+                <video autoplay muted loop id="obs-vid" class="sec7-box2-vid2">
+                    <source src="/Shared/XSeries/ALOHA/obs_battery.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="sec7-box2-con3">
+                <h1 class="sec7-box2-h1">Open Cup
+                  <div class="sec7-box2-line"></div>
+                </h1>
+
+                <video autoplay muted loop id="cup-vid" class="sec7-box2-vid3">
+                    <source src="/Shared/XSeries/ALOHA/open_cup.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION 8-->
+    <div class="container8">
+        <div class="sec8-box1">
+            <figure class="university-con-img">
+                <!--<img src="/Shared/XSeries/ALOHA/labfeature.webp" class="university-img" data-image="0">-->
+            </figure>
+
+            <div class="sec8-box1-content">
+                <h1 class="sec8-box1-h1">Interested in bringing this project to your University?</h1>
+                <button id="quote-btn" type="button" onclick="myFunction()">REQUEST A QUOTE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+/* ALOHA */
+div.page-container {
+  margin-top: 50px;
+}
+
+#interbotix-vid,
+#balance-vid,
+#battery-vid,
+#lid-vid,
+#tape-vid,
+#ziploc-vid,
+#obs-vid,
+#cup-vid,
+.university-img {
+  width: 100%;
+}
+
+a {
+  color: #007cc4;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.5s;
+  color: black;
+}
+
+/* SECTION 1 */
+div.container1 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1.sec1-h1 {
+  max-width: 750px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec1-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+div.sec1-name-con {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SECTION 2 */
+div.container2 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+div.sec2-box1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1.sec2-h1 {
+  max-width: 1400px;
+  margin: 30px auto 30px auto;
+  font-weight: 400;
+}
+
+div.img-container2 {
+  display: flex;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.stanford-con-img,
+figure.berkeley-con-img,
+figure.meta-con-img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+img.stanford-img,
+img.berkeley-img,
+img.meta-img {
+  width: 800px;
+}
+
+div.sec2-box2 {
+  position: relative;
+}
+
+video.sec2-box2-vid {
+  position: relative;
+}
+
+div.sec2-box2-content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 20px 60px 70px;
+}
+
+h1.sec2-box2-h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+#learn-more-btn {
+  width: 165px;
+  font-size: 16px;
+  padding: 15px 10px;
+  border: none;
+  background: #007cc4;
+  color: #fff;
+  cursor: pointer;
+}
+
+#learn-more-btn:hover {
+  /* background: white;
+  color: #007cc4; */
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+
+/* SECTION 3 */
+div.container3 {
+  display: flex;
+  max-width: 1400px;
+  margin: 30px auto 30px auto;
+}
+
+div.sec3-box1 {
+  max-width: 650px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0px 25px 0px 25px;
+}
+
+h1.sec3-h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+div.sec3-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec3-p {
+  text-align: justify;
+}
+
+div.sec3-box2 {
+  padding: 0px 25px 0px 25px;
+}
+
+/* SECTION 4 */
+div.container4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figure.teleoperated-con-img {
+  max-width: 1400px;
+}
+
+img.teleoperated-img {
+  width: 100%;
+}
+
+/* SECTION 5 */
+div.container5 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.sec5-box1 {
+  padding-bottom: 30px;
+}
+
+h1.sec5-h1 {
+  max-width: 750px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec5-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec5-p {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec5-box2 {
+  display: flex;
+  justify-content: center;
+}
+
+video.sec5-box2-vid1,
+video.sec5-box2-vid2,
+video.sec5-box2-vid3 {
+  max-width: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* SECTION 6 */
+div.container6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figure.viperx-con-img {
+  max-width: 1400px;
+}
+
+img.viperx-img {
+  width: 100%;
+}
+
+/* SECTION 7 */
+div.sec7-box1 {
+  padding-bottom: 30px;
+}
+
+div.sec7-box2-con1 {
+  display: flex;
+}
+
+div.sec7-box2-con1,
+div.sec7-box2-con2,
+div.sec7-box2-con3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px 20px 200px;
+}
+
+h1.sec7-box2-h1 {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div.sec7-box1-line {
+  width: 280px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+video.sec7-box2-vid1,
+video.sec7-box2-vid2,
+video.sec7-box2-vid3 {
+  max-width: 1000px;
+}
+
+/* SECTION 7 */
+div.container7 {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1.sec7-box1-h1 {
+  max-width: 750px;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.sec7-box2-line {
+  width: 120px;
+  height: 2px;
+  background: #1a272d;
+  margin: 15px auto 15px auto;
+}
+
+p.sec7-box1-p {
+  max-width: 750px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SECTION 8 */
+div.container8 {
+  margin-top: 30px;
+}
+
+div.sec8-box1 {
+  position: relative;
+}
+
+figure.university-con-img {
+  min-height: 45vh;
+  position: relative;
+  background-image: url("/Shared/XSeries/ALOHA/labfeature.webp");
+  background-size: cover;
+}
+
+div.sec8-box1-content {
+  position: absolute;
+  bottom: 20%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1.sec8-box1-h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 60px;
+  margin-bottom: 45px;
+}
+
+#quote-btn {
+  width: 165px;
+  font-size: 14px;
+  padding: 15px 10px;
+  border: none;
+  background: #007cc4;
+  color: #fff;
+  cursor: pointer;
+}
+
+#quote-btn:hover {
+  /* background: white;
+  color: #007cc4; */
+  transform: scale(1.05, 1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -moz-transform: scale(1.05, 1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+}
+</style>
