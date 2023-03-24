@@ -7,13 +7,13 @@
 
         <div class="sec1-name-con">
             <h3 class="sec1-h3">
-                <a href="#" target="_blank" rel="noopener noreferrer">Tony Zhao</a>,
-                <a href="#" target="_blank" rel="noopener noreferrer">Vikash Kumar</a>,
-                <a href="#" target="_blank" rel="noopener noreferrer">Sergey Levine</a>,
-                <a href="#" target="_blank" rel="noopener noreferrer">Chelsea Finn</a>
+                <a href="https://tonyzhaozh.github.io/" target="_blank" rel="noopener noreferrer">Tony Zhao</a>,
+                <a href="https://vikashplus.github.io/AboutMe.html" target="_blank" rel="noopener noreferrer">Vikash Kumar</a>,
+                <a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank" rel="noopener noreferrer">Sergey Levine</a>,
+                <a href="https://ai.stanford.edu/~cbfinn/" target="_blank" rel="noopener noreferrer">Chelsea Finn</a>
             </h3>
             <h3 class="sec1-h3-2"> Read the paper
-                <a href="#" target="_blank" rel="noopener noreferrer" style="font-weight: 600;"> here</a>.
+                <a href="https://tonyzhaozh.github.io/aloha/aloha.pdf" target="_blank" rel="noopener noreferrer" style="font-weight: 600;"> here</a>.
             </h3>
         </div>
     </div>
@@ -147,19 +147,116 @@
     </div>
 
     <!--SECTION 8-->
-    <div class="container8">
+    <!--<div class="container8">
         <div class="sec8-box1">
-            <figure class="university-con-img">
+            <figure class="university-con-img">-->
                 <!--<img src="/Shared/XSeries/ALOHA/labfeature.webp" class="university-img" data-image="0">-->
-            </figure>
+            <!--</figure>
 
             <div class="sec8-box1-content">
                 <h1 class="sec8-box1-h1">Interested in bringing this project to your University?</h1>
                 <button id="quote-btn" type="button" onclick="myFunction()">REQUEST A QUOTE</button>
             </div>
         </div>
+    </div>-->
+
+   <!--SECTION 9-->
+   <div class="container9">
+    <div class="sec9-left">
+        <figure clas="sec9-img-con1">
+            <!--No edits-->
+            <img src="/Shared/XSeries/ALOHA/aloha-banner.jpg" class="sec9-banner" data-image="0">
+        </figure>
+
+        <div class="contact-info">
+            <!--No edits-->
+            <h1 class="sec9-question">Interested in bringing this project to your University?
+            </h1>
+            <div class="sec9-line"></div>
+            <p class="sec9-call">Fill out the contact information or give us a call:
+                <a href="tel:866-478-3731" class="sec9-number"><b>866-478-3731</b></a>
+            </p>
+
+            <!--<p class="sec9-text">or fill out the form and one of our experts will be happy to follow up!
+            </p>-->
+        </div>
     </div>
+
+    <div class="contact-container">
+        <!--No edits-->
+        <h1 class="contact-title">Speak with a Roboticist</h1>
+        <!--No edits-->
+
+        <!--This is the contact form-->
+        $$CONTACTFORM14333$$
+    </div>
+
+    <!--Right image-->
+    <figure class="sec9-img-con2">
+        <img src="/Shared/XSeries/ALOHA/aloha-bottom.jpg" class="sec9-img2" data-image="0">
+    </figure>
 </div>
+
+<div class="sec9-box2"></div>
+
+</div>
+
+
+<style>
+  .con-form-inner .Control {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .con-form-cell {
+      width: 49%;
+      margin-bottom: 10px;
+  }
+
+  .con-form-inner {
+      max-width: 500px;
+  }
+
+  .con-form-inner .Control .con-form-cell:nth-child(n + 3) {
+      width: 100% !important;
+  }
+
+  .con-form-field input {
+      width: 100%;
+  }
+
+  .con-form-inner .Control .con-form-cell:first-child {
+      margin-right: 2%;
+  }
+
+  .con-form-field ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .con-form-field ul li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  }
+
+  .con-form-field ul li input {
+      width: 20px;
+  }
+
+  .con-form-field ul li label {
+      margin-bottom: 0;
+      margin-top: 5px;
+      margin-right: 10px;
+  }
+
+  .con-form-inner input[type="submit"] {
+      margin-bottom: 20px;
+  }
+</style>
 
 
 <style>
@@ -185,7 +282,7 @@ p {
 }
 
 a {
-  color: #007cc4;
+  color: #00b0f0;
 }
 
 a:hover {
@@ -235,7 +332,7 @@ h3.sec1-h3-2 {
 @media only screen and (max-width: 1024px) {
   div.page-container {
     margin-top: 0px;
-}
+  }
 
   h1.sec1-h1 {
     max-width: 700px;
@@ -450,7 +547,7 @@ h1.sec2-box2-h1 {
 
   #learn-more-btn {
     font-size: 2.5vw;
-    padding: 15px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
   }
 }
 
@@ -566,7 +663,11 @@ div.sec3-box2 {
 
   h1.sec3-h1 {
     font-size: 7vw;
-}
+  }
+
+  p.sec3-p {
+    font-size: 14px;
+  }
 }
 
 /* SECTION 4 */
@@ -609,8 +710,11 @@ img.teleoperated-img {
 /* MOBILE SMALL*/
 @media only screen and (max-width: 500px) {
   div.container4 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
+  }
+
+  figure.teleoperated-con-img {
+    max-width: 100%;
   }
 }
 
@@ -729,8 +833,23 @@ video.sec5-box2-vid3 {
 /* MOBILE SMALL*/
 @media only screen and (max-width: 500px) {
   div.container5 {
+    max-width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  h1.sec5-h1 {
+    font-size: 7vw;
+  }
+
+  p.sec5-p {
+    font-size: 14px;
+  }
+
+  video.sec5-box2-vid1,
+  video.sec5-box2-vid2,
+  video.sec5-box2-vid3 {
+    padding: 10px 25px 10px 25px;
   }
 }
 
@@ -774,8 +893,11 @@ img.viperx-img {
 /* MOBILE SMALL*/
 @media only screen and (max-width: 500px) {
   div.container6 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
+  }
+
+  figure.viperx-con-img {
+    max-width: 100%;
   }
 }
 
@@ -935,8 +1057,27 @@ video.sec7-box2-vid3 {
 /* MOBILE SMALL*/
 @media only screen and (max-width: 500px) {
   div.container7 {
+    max-width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  h1.sec7-box1-h1 {
+    font-size: 7vw;
+  }
+
+  p.sec7-box1-p {
+    font-size: 14px;
+  }
+
+  h1.sec7-box2-h1 {
+    font-size: 7vw;
+  }
+
+  div.sec7-box2-con1,
+  div.sec7-box2-con2,
+  div.sec7-box2-con3 {
+    max-width: 100%;
   }
 }
 
@@ -956,6 +1097,18 @@ figure.university-con-img {
   background-size: cover;
 }
 
+/* Add an overlay with semi-transparent background color */
+figure.university-con-img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 div.sec8-box1-content {
   position: absolute;
   bottom: 20%;
@@ -963,6 +1116,7 @@ div.sec8-box1-content {
   width: 100%;
   padding: 20px;
   text-align: center;
+  z-index: 1;
 }
 
 h1.sec8-box1-h1 {
@@ -1029,6 +1183,211 @@ h1.sec8-box1-h1 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  h1.sec8-box1-h1 {
+    font-size: 6vw;
+  }
+
+  #quote-btn {
+    font-size: 2.5vw;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+/* SECTION 9 */
+div.container9 {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  background: #ededed;
+}
+
+div.sec9-left {
+  flex-wrap: wrap;
+  width: 1100px;
+  background: #ededed;
+}
+
+h1.sec9-question {
+  font-size: 2.6vw;
+  font-weight: 400;
+  color: #1a272d;
+}
+
+div.sec9-line {
+  height: 2px;
+  background: #1a272d;
+  margin: 10px 215px 15px 0px;
+}
+
+p.sec9-call, a.sec9-number, p.sec9-text {
+  font-size: 1.2vw;
+}
+
+div.sec9-box2 {
+  width: 100%;
+  height: 50px;
+  background: #ededed;
+}
+
+img.sec9-img2 {
+  /* transform: scaleX(-1); */
+  width: 408px;
+}
+
+/* Contact form field edits */
+div#ctl45_dvControl {
+  margin-top: 0px;
+}
+
+/* Edits the text area for the contact form */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+/* Color of border on hover */
+input#ctl45_ctlContactForm_rpFormField_ctl00_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl01_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl02_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl03_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl04_txtField:hover,
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField:hover {
+  border: 1px solid #007cc4;
+}
+
+/* Makes message box longer */
+input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+  padding-bottom: 120px;
+}
+
+/* Style the submit button with a specific background color etc */
+input#ctl45_ctlContactForm_btnSubmit {
+  background-color: #007cc4;
+  color: white;
+  padding: 15px 50px;
+  margin-top: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input#ctl45_ctlContactForm_btnSubmit:hover {
+  background-color: white;
+  color: #007cc4;
+}
+
+/* Closes gap between title text & name section */
+div#ctl45_dvControl.Control.ContactForm.Control_12777 {
+  margin-top: 0px;
+}
+
+input#ctl45_ctlContactForm_rpFormField_ctl06_rblFields_1 {
+  margin-left: 15px;
+}
+
+figure.sec9-img-con2 {
+  background: #ededed;
+}
+
+
+/* DESKTOP */
+@media only screen and (max-width: 2565px) {
+  div.sec9-left {
+    width: auto;
+  }
+
+  img.sec9-banner {
+    width: 1430px;
+  }
+
+  div.contact-info {
+    max-width: 1135px;
+  }
+
+  figure.sec9-img-con2 {
+    width: 530px;
+  }
+
+  img.sec9-img2 {
+    width: 100%;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.container9 {
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  h1.sec9-question {
+    font-size: 4.5vw;
+  }
+
+  div.sec9-line {
+    margin: 10px 326px 15px 0px;
+  }
+
+  p.sec9-call, a.sec9-number, p.sec9-text {
+    font-size: 2.1vw;
+  }
+
+  img.sec9-img2 {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.container9 {
+    flex-flow: wrap;
+    margin-bottom: 0PX;
+  }
+
+  div.contact-info {
+    padding: 35px 30px 30px 30px;
+  }
+
+  h1.sec9-question {
+    font-size: 6.5vw;
+    margin-top: 0px;
+  }
+
+  div.sec9-line {
+    margin: 10px 165px 15px 0px;
+  }
+
+  p.sec9-call, a.sec9-number, p.sec9-text {
+    font-size: 16px;
+  }
+
+  input#ctl45_ctlContactForm_rpFormField_ctl00_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl01_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl02_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl03_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl04_txtField,
+  input#ctl45_ctlContactForm_rpFormField_ctl05_txtField {
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+  }
+}
+
+label {
+  color: white !important;
 }
 </style>
 
