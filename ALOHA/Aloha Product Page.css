@@ -292,3 +292,73 @@
             padding-top: 20px;
         }
     }
+
+
+    /* BUTTONS */
+    .team-names {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .team-member {
+        font-size: 2.5rem;
+    }
+
+
+
+    .publication-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .paper-button, .arXiv-button, .tutorial-button, .datasets-button, .hardware-code-button, .learning-code-button {
+        display: inline-block;
+        padding: 7px 20px;
+        margin: 0px 5px;
+        background-color: #363636;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: background-color 0.3s ease;
+        user-select: none;
+      }
+
+      .paper-button:hover, .arXiv-button:hover, .tutorial-button:hover, .datasets-button:hover, .hardware-code-button:hover, .learning-code-button:hover {
+        background-color: #363636;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .icon1, .icon2, .icon3, .icon4, .icon5 {
+        height: auto;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+
+      .icon1 {
+        width: 13px;
+      }
+
+      .icon2 {
+        width: 14px;
+      }
+
+      .icon3 {
+        width: 19px;
+      }
+
+      .icon4 {
+        width: 15px;
+      }
+
+      .icon5 {
+        width: 19px;
+      }
+
+      .span {
+        vertical-align: middle;
+      }
